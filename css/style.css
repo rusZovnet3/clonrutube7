@@ -316,3 +316,150 @@ nav{
 	background-color: #ccc;
 	margin: 10px 0;
 }
+
+/*publicaciones*/
+
+.publicasiones{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.publicasiones div{
+	flex: 1;
+	line-height: 18px;
+}
+
+.publicasiones img{
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+.publicasiones div p{
+	color: #000;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.publicasiones div span{
+	font-size: 13px;
+	color: #5a5a5a;
+}
+
+.publicasiones button{
+	background-color: red;
+	color: #fff;
+	padding: 8px 30px;
+	border: 0;
+	outline: 0;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.video-descripciones{
+	padding-left: 55px;
+	margin: 15px 0;
+}
+
+.video-descripciones p{
+	font-size: 14px;
+	margin-bottom: 5px;
+	color: #5a5a5a;
+}
+
+.video-descripciones h4{
+	font-size: 14px;
+	color: #5a5a5a;
+	margin-top: 15px;
+}
+
+.add-comentarios{
+	display: flex;
+	align-items: center;
+	margin: 30px 0;
+}
+
+.add-comentarios img{
+	width: 35px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+.add-comentarios input{
+	border: 0;
+	outline: 0;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	padding-top: 10px;
+	background-color: transparent;
+}
+
+/*comantados*/
+
+.comentados{
+	display: flex;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.comentados img{
+	width: 35px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+.comentados h3{
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+
+.comentados h3 span{
+	font-size: 12px;
+	color: #5a5a5a;
+	font-weight: 500;
+	margin-left: 8px;
+}
+
+.comentados .accion-comentado{
+	display: flex;
+	align-items: center;
+	margin: 8px 0;
+	font-size: 14px;
+}
+
+.comentados .accion-comentado img{
+	border-radius: 0;
+	width: 20px;
+	margin-right: 5px;
+}
+
+.comentados .accion-comentado span{
+	margin-right: 20px;
+	color: #5a5a5a;
+}
+
+.comentados .accion-comentado a{
+	color: #0000ff;
+}
+
+
+@media (max-width: 900px){
+	.play-video{
+		flex-basis: 100%;
+	}
+	.derecha-sidebar{
+		flex-basis: 100%;
+	}
+	.play-container{
+		padding-left: 5%;
+	}
+	.video-descripciones{
+		padding-left: 0;
+	}
+	.play-video .play-video-info a{
+		margin-left: 0;
+		margin-right: 15px;
+		margin-top: 15px;
+	}
+}
